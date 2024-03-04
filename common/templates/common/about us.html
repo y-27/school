@@ -1,0 +1,92 @@
+{% extends "common/master.html" %}
+{% load static %}
+{% block header %}
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+{% endblock %}
+
+{% block content %}
+
+
+
+      <section>
+        <div class="container">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="{% static 'images/about us.png'%}" class="d-block w-100" alt="..." style="height: 700px;">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'images/aboutzz.png'%}" class="d-block w-100" alt="..." style="height: 700px;">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'images/IMG_3925.jpg'%}" class="d-block w-100" alt="..." style="height: 700px;">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section> 
+        <h1 class="header" style="text-align: center; margin-top: 2%;"><b>HISTORY</b></h1>
+        <p class ="container">The Southern Province emerged from its initial stages as a region to a Pro-Province and finally to a full fledged province in 1974, with all its struggles, problems and challenges. Its development is a tableau of 43 years not only in the spiritual sphere but also in its apostolate, contributing to the building of the Kingdom of God and building up hope for the future
+
+          In 1965, Mother Theodosia, the then Superior General, by her circular No.124 dated May 28 informed the congregation about the names of regions, the regional superiors and their consultors. Sr. Eanswide who was born and bred in Calicut and whose very affable nature endeared her to all, was appointed the Mother Delegate of the Kerala Region. Her assistants were Srs. Berenice and Thersia.
+          In 1966 the regions started functioning well and Sr. Mary was appointed the first regional Superior till 1971. Her consultors were Srs. Josefa, Edburga and Berenice.
+          Seeing that the regions were carrying on along the right lines, the Special Chapter of 1969 requested Rome for permission to erect the Provinces. The Sacred Congregation authorized the Superior General to proceed the erection of five Pro-provinces on Feb. 2nd 1971
+          The Pro-Provincial Team stayed in Providence convent till 1971 and on 26th September 1971 the Pro-Provincial team was shifted to the Florican Hill Bunglow.
+          The Pro-Provincial Superior was Sr. Fridolin. The first community comprised of Sr. Fridolin, Pro-Provincial Superior, Sr. Theresia, first Assistant, Sr. Domittilla, the Provincial Bursar, Srs. Conradine, Titus, Bartolimea, Susheela, Geetha, Marie Grace and Sr. Marie Gemma. Candidates too were shifted from Providence to the Provincial House. The community occupied the main bungalow and the juniors and candidates the annexe.
+          In 1974 the Provinces were formed and the first Provincial Superior, Sr. M. Theodoret assumed office. The province has its own administrative and governing body- canonically erected by its own members to govern the convents situated in Kerala and Tamil Nadu, keeping its own cultural heritage intact, under the jurisdiction of the Superior General. The governing body is the connecting link between the Superior General and convents of the Province. It helps in the growth of the charism of the congregation, the spiritual life of the sisters and the efficient administration of its convents. At that time there were only 14 convents spreading out from Kasargod to Trivandrum and just two convents in Tamil Nadu. Now there are 27 convents besides the formation houses. The bungalow was renovated in 2015 with sufficient space for the Provincial administration and the community with a spacious chapel.</p>
+      </section>
+      <section>
+
+        <div class="container">
+         <div class="row" style="text-align: center;margin-top: 6%;">
+          <div class="col-md-3">
+          <div class="card" style="width: 18rem; ">
+            <img src="{% static 'images/map.jpg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="background-color: lightgreen;">Map of the Province</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem;">
+            <img src="{% static 'images/old huse.jpg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="background-color: lightgreen;">Old Provincial House</p>
+            </div>
+          </div>
+         </div>
+
+          <div class="col-md-3">
+          <div class="card" style="width: 18rem;">
+            <img src="{% static 'images/house.jpg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="background-color: lightgreen;">Renovated Provincial House</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem;">
+            <img src="{% static 'images/team.jpg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="background-color: lightgreen;">Provincial Superior and Team</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </section>
+
+{% endblock %}
+
+      

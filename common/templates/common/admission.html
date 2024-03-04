@@ -1,0 +1,61 @@
+{% extends "common/master.html" %}
+{% load static %}
+{% block header %}
+<link rel="stylesheet" href="{% static 'css/admission.css' %}">
+{% endblock %}
+
+{% block content %}
+   <div class="container">
+  <div class="box" style="background-color: lightgrey; width: 100%;height: 500px;margin-top: 20px;">
+    <h1 style="text-align: left;">Admission Overview</h1>
+    <h4 style="text-align: left;">Please not that filling in the registration form does not gurantee admission </h4>
+    <p style="text-align: left;">Registration forms for admission to LKG for the academic year 2020-2021 will be available online www.bhavanskochikendra.com between 30/07/2019 and 02/08/2019.
+
+      Admission to classes UKG onwards is subject to availability of seats only.
+      
+      Parents seeking for admission may submit request letter at Bharatiya Vidya Bhavan, Kochi Kendra, T D Road, Ernakulam, during the first week of March.
+      
+      For more details please contact Kendra Office 0484-2383451, 2383452.
+      
+      All students will have to attend an aptitude test in all subjects to qualify for admission</p><br>
+    <p style="text-align: left;">Please read all instructions carefully, before filling the ”Application Form”
+
+      Take the Print out of the application form.
+      Duly filled application form along with Photostat copies of Cap ID registration form, Degree certificate, and Rs. 200/- to be submitted at the college office.
+      Candidates can send the application form by post along with the money order of Rs. 200/- </p><br>
+      <p style="text-align: left;">1.	The Management reserves the right to admit or refuse pupils seeking admission to the school. Similarly, the Management decides when the question of retaining a student in the class arises.
+        2.	No child less than 3 years old on the first day of the academic year will be admitted to L.K.G. At the time of admission, the following certificates should be attached with the application form:
+        a) Birth certificate. (once admitted NO CHANGE OF DATE OF BIRTH WILL BE ENTERTAINED.)
+        b) Original Transfer Certificate from the school last attended.
+        3.	Pupils seeking admission in higher classes may be tested on the syllabus of the standard below the one to which they seek admission.
+        4.	Admission is formally completed only when the form has been filled up and submitted to the office, fee dues are paid and the form is signed by the Principal.  </p>
+
+
+  </div>
+</div>
+<section>
+  <div class="container">
+  <div class="row" style="margin-top: 5%; background-color: lightgrey;">
+    <div class="col-md-3">
+        <img src="{% static 'images/activity.png' %}" alt="" width="200px" height="300px">
+        <p style="text-align: center;font-size: xx-large;"><b>Achievements</b></p>
+    </div>
+    <div class="col-md-3">
+      <img src="{% static 'images/achievements.png' %}" alt="" width="200px" height="300px">
+        <p style="text-align: center;font-size: xx-large;"><b>Activities</b></p>
+    </div>
+    <div class="col-md-3">
+      <img src="{% static 'images/year-plan.png' %}" alt="" width="200px" height="300px">
+        <p style="text-align: center;font-size: xx-large;"><b>Year plan</b></p>
+    </div>
+    <div class="col-md-3">
+      <img src="{% static 'images/event-calender.png' %}" alt="" width="200px" height="300px">
+        <p style="text-align: center;font-size: xx-large;"><b>Annuel calender</b></p>
+    </div>
+
+</div>
+</div>
+</div>
+</section>
+
+{% endblock %}

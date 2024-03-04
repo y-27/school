@@ -1,0 +1,33 @@
+{% extends "student/masterstu.html" %}
+{% load static %}
+{% block header %}
+{% endblock %}
+
+{% block content %}
+ 
+
+<div class="col-md-10">
+
+<div class="row">
+
+
+    
+        <ul class="list-unstyled"style="margin-top: 50px;">
+            <li class="d-grid"><a href="{% url 'student:studentdashboard' %}" class="btn btn-outline-warning"><i class="las la-igloo">Dashboard</i></a> </li><br>
+            <li class="d-grid"><a href="{% url 'schooladmin:teacheradmin' %}" class="btn btn-outline-warning"><i class="las la-book"></i><b>View Attendence</b></a> </li><br><br><br><br><br>
+
+            <li class="d-grid"><a href="{% url 'schooladmin:studentadmin' %}" class="btn btn-danger"><i class="las la-graduation-cap"></i><b>Logout</b></a> </li><br>
+           
+
+
+            
+        </ul>
+
+    </div>
+</div>
+</div>
+
+
+
+
+{% endblock %}
